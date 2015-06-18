@@ -1,0 +1,172 @@
+/* ADD YOUR STYLES HERE */
+
+.margin {
+	padding: 20px;
+	vertical-align: top;
+}
+
+.paragraph {
+	padding: 20px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.container {
+	text-align: center;
+}
+
+.verticalcontainer {
+	margin-top: 20vh;
+	margin-bottom: 20vh;
+}
+
+/*
+.verticalcontainer {
+	height: 400px;
+	line-height: 400px;
+}
+
+.verticalelement {
+	vertical-align: middle;
+	line-height: initial;
+}
+
+.verticalparagraph {
+
+	line-height: initial;
+}*/
+
+.liststyle {
+	list-style-type: none;
+}
+
+.liststyle li {
+	display: inline-block;
+	float: left;
+}
+
+.button {
+	color: white;
+	background-color: LightCoral;
+	border: none;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.large {
+	padding: 30px 50px;
+}
+
+
+.med {
+	padding: 10px 30px;
+
+}
+
+.small {
+	padding: 5px 15px;
+}
+
+
+.navbar li {
+	display:inline-block;
+	float:left;
+	background-color: LightCoral;
+	margin: auto;
+	padding: 10px 30px;
+	list-style-type: none;
+}
+
+.navbar li a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar li a:hover {
+	color: blue;
+}
+
+.line {
+	border-bottom: solid LightCoral 3px;
+	margin: 5px;
+}
+
+.pages li {
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+.numbers {
+	color: LightCoral;
+	text-decoration: none;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.numbers:hover {
+	color: DarkGray;
+}
+
+/*.pages li a {
+	color: LightCoral;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.pages li span {
+	color: LightCoral;
+	text-decoration: none;
+	padding: 10px;
+}*/
+
+.float {
+	float:left;
+}
+
+.block {
+	overflow:hidden;
+	padding: 10px;
+}
+
+.clearfloat {
+	clear: left;
+}
+
+.tabs {
+	list-style-type: none;
+}
+
+.tabs li a{
+	text-decoration: none;
+	display: inline-block;
+	color: blue;
+	float:left;
+	padding: 5px 10px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.tab-button {
+	border-top: solid steelblue 1px;
+	border-left: solid steelblue 1px;
+	border-right: solid steelblue 1px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.tab-button:hover {
+	border-bottom: solid white 1px;
+	position: relative;
+	bottom: -1px;
+}
+
+.tab-text {
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 5px;
+	border: solid steelblue 1px;
+} 
